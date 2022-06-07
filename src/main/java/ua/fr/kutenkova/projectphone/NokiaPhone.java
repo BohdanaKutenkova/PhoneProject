@@ -1,8 +1,8 @@
 package ua.fr.kutenkova.projectphone;
 
 public class NokiaPhone extends Phone implements PhoneConnection, PhoneMedia {
-    public NokiaPhone(String br, String m, int st, int v) {
-        super(br, m, st, v);
+    public NokiaPhone(String brandName, String model, int phoneStorage, int phoneRAMVolume) {
+        super(brandName, model, phoneStorage, phoneRAMVolume);
     }
 
     @Override

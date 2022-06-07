@@ -1,9 +1,9 @@
 package ua.fr.kutenkova.projectphone;
 
-public class SamsungPhone extends Phone implements  PhoneConnection, PhoneMedia {
-        public SamsungPhone(String br, String m, int st, int v) {
-            super(br, m, st, v);
-        }
+public class SamsungPhone extends Phone implements PhoneConnection, PhoneMedia {
+    public SamsungPhone(String brandName, String model, int phoneStorage, int phoneRAMVolume) {
+        super(brandName, model, phoneStorage, phoneRAMVolume);
+    }
 
     @Override
     public void makeRing() {

@@ -1,8 +1,8 @@
 package ua.fr.kutenkova.projectphone;
 
 public class ApplePhone extends Phone implements PhoneConnection {
-    public ApplePhone(String br, String m, int st, int v) {
-        super(br, m, st, v);
+    public ApplePhone(String brandName, String model, int phoneStorage, int phoneRAMVolume) {
+        super(brandName, model, phoneStorage, phoneRAMVolume);
     }
 
     @Override
